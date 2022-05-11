@@ -105,28 +105,32 @@
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button> -->
+                    <button id="mobile_sidetoggle" class="m-side-toggle">
+                        <i class="material-icons-outlined">menu</i>
+                    </button>
 
                     <!-- Topnav bar content -->
                     <ul class="menu">
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" href="#" id="userDropdown" role="button"
+                        <span class="menu__title">Recomendation</span>
+                        <!-- <li class="dropdown">
+                            <a class="dropdown-toggle" href="./cast_p.html" id="userDropdown" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span class="mr-2 d-none d-lg-inline text-gray-600">NULL</span>
+                                    <span class="mr-2 d-none d-lg-inline text-gray-600">CAST</span>
                             </a>
                         </li>
-                        
-                        <div class="divider display-block"></div>
+                         -->
+                        <!-- <div class="divider display-block"></div> -->
 
                         <!-- Nav Item - User Information -->
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a class="dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600">dropdown menu</span>
                             </a>
-                        </li>
+                        </li> -->
 
                     </ul>
+
 
                 </nav>
                 <!-- End of Topbar -->
@@ -135,6 +139,7 @@
                 <div id="search">
 
                     <!-- Search -->
+                    <div class="search__bar">
                     <form class="search-inputform display-inlineblock">
                         <div class="search-input">
                             <input type="text" class="search-inputbox" id="search_val" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
@@ -146,16 +151,21 @@
                         </div>
                     </form>
 
+                    <div class="tabmenu">
+                        <ul class="tabs">
+                            <li class="tab-link current" data-tab="tab-1">Width of bead</li>
+                            <li class="tab-link " data-tab="tab-2">Height of bead</li>
+                            <li class="tab-link " data-tab="tab-3">Depth of bead</li>
+                            <li class="tab-link " data-tab="tab-4">Width of HAZ</li>
+                            <li class="tab-link " data-tab="tab-5">Depth of HAZ</li>
+                        </ul>
+                    </div>
+                </div>
+
                     <div class="search-result">
-                        <div class="tabmenu">
-                            <ul class="tabs">
-                                <li class="tab-link current" data-tab="tab-1">Width of bead</li>
-                                <li class="tab-link " data-tab="tab-2">Height of bead</li>
-                                <li class="tab-link " data-tab="tab-3">Depth of bead</li>
-                                <li class="tab-link " data-tab="tab-4">Width of HAZ</li>
-                                <li class="tab-link " data-tab="tab-5">Depth of HAZ</li>
-                            </ul>
-                        </div>
+                       
+
+
                         <div class="table-output tab-content current" id="tab-1">
                             <table id="table_data" cellspacing="0">
                                 <thead>
@@ -263,13 +273,13 @@
             <!-- End of Main Content -->
             
             <!-- Footer -->
-            <footer>
+            <!-- <footer>
                 <div class="container">
                     <div class="copyright text-align-center">
                         <span>powered by Kitech</span>
                     </div>
                 </div>
-            </footer>
+            </footer> -->
             <!-- End of Footer -->
 
         </div>

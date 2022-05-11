@@ -1,0 +1,69 @@
+#sidenav { display: flex; flex-direction: column;  min-height: 100vh; padding-left: 0; margin-bottom: 0; background-color: #0067E2;  background-size: cover; list-style: none; overflow-anchor: none; transition: all .5s;  box-sizing: border-box; align-items: center;}
+/* #sidenav .title { display: flex !important; color: white; height: 4.375rem; text-decoration: none; font-size: 1rem; font-weight: 800; padding: 1.5rem 1rem; text-align: center; text-transform: uppercase; letter-spacing: .05rem; z-index: 1; } */
+#sidenav .sidenav-divider { border-top: 1px solid rgba(255, 255, 255, .15); margin: 0 1rem 1rem; margin-bottom: 0 !important; margin-top: 0 !important; }
+#sidenav .nav-item { position: relative; }
+/* .nav-link { display: block; position: relative; color: white; text-align: center; padding: 0.75rem 1rem; width: 6.5rem;} */
+#sidenav .nav-link-icon { display: inline-block; color: white; margin-right: 0; font-size: .85rem; font-weight: 900; font-family: "Font Awesome 5 Free"; text-align: center; width: 1.25em; font-style: normal; font-variant:normal; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; }
+#sidenav .nav-link-icon::before { content:"\f3fd"; }
+.nav-link-span { font-size: .65rem; display: block; }
+#sidenav .sidebarToggle { background-color: rgba(255, 255, 255, .2); width: 2.5rem; height: 2.5rem; text-align: center; margin-bottom: 1rem; cursor: pointer; border-radius: 50% !important; border: 0 !important; -webkit-appearance: button; }
+
+#main { flex-direction: column !important; background-color: white; width: 100%; overflow-x: hidden;}
+#content { flex-grow: 1; flex-shrink: 0; flex-basis: auto; }
+#topnav { position: relative; display: flex; height: 140px; background-color: white !important; box-shadow: 2px 2px rgba(0, 0, 0, .05) !important; align-items: center; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; }
+
+#topnav .menu { display: flex; flex-direction: row; list-style: none; transition: all .5s; align-items: center; justify-content: space-between; width: 100%; margin: 0; padding: 0;}
+#topnav .dropdown { position: relative; }
+#topnav .dropdown-toggle { display: flex; position: relative; height: 4.375rem; padding: 0 .75rem; color: #d1d3e2; align-items: center; white-space: nowrap; cursor: pointer;}
+#topnav .divider { width: 0; height: calc(4.375rem - 2rem); margin: auto 1rem; border-right: 1px solid #e3e6f0 }
+#topnav span { color: #434343 !important; font-size: 20px; margin-right: 100px;}
+
+#topnav .m-side-toggle { background-color: #eaecf4; height: 2.5rem; width: 2.5rem; cursor: pointer; outline: 0; text-decoration: underline; margin-right: 1rem !important; border-radius: 50% !important; font-weight: 400; display: none; text-align: center; vertical-align: middle; user-select: none; background-color: transparent; border: 1px solid transparent; padding: .375rem .75rem; font-size: 1rem; line-height: 1.5; } 
+
+
+.sidenavbar { width: 14rem !important; }
+.toggled { overflow: visible; width: 7.7rem !important; }
+.toggled-link { padding: 1rem; width: 14rem; text-align: left;  }
+.toggle-icon { color: white; font-size: .85rem; vertical-align: middle; align-items: center; text-align: center;}
+.toggle-span { display: inline; font-size: .85rem; margin-left: 1rem; }
+
+
+
+.sidebar-brand-icon img{
+    width: 80px;
+    height: 80px;
+    margin-top: 35px;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+#nav-link1 img{
+    width: 29.39px;
+    height: 16.47px; 
+    margin-top: 50.5px;
+    margin-bottom: 30px;
+}
+
+#nav-link2 img{
+    width: 29.39px;
+    height: 29.39px; 
+    margin-top: 60px;
+    margin-bottom: 17px;
+}
+
+#sidebarToggle{
+    display: none;
+}
+
+#topnav .menu__title{
+    margin-left: 53px;
+    font-family: GmarketSansBold;
+    font-size: 32px;
+    color: black !important;
+}
+

@@ -28,18 +28,23 @@
 #prediction .card-area-chart { position: relative; width: 100%; height: 20rem; }
 #prediction .card-mychart-01 { display: block; width: 514px; height: 320px; animation: chartjs-render-animation }
 #prediction .card-col-output { position: relative; width: 100%; padding-right: .75rem; padding-left: .75rem; margin-bottom: 1.5rem !important; flex: 0 0 20%; max-width: 20%; }
-#prediction .card-output { display: flex; position: relative; flex-direction: column; min-width: 0; height: 100% !important; padding-bottom: .5rem !important; padding-top: .5rem !important; box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important; word-wrap: break-word; background-color: white; background-clip: border-box; border: 1px solid #e3e6f0; border-radius: .35rem; }
+#prediction .card-output { display: flex; position: relative; flex-direction: column; min-width: 0; height: 100% !important; padding-bottom: .5rem !important; padding-top: .5rem !important; word-wrap: break-word; background-color: white; background-clip: border-box; border: 0px solid #e3e6f0; border-radius: .35rem; }
 #prediction .card-body-output { flex: 1 1 auto; min-height: 1px; padding: 1.25rem; }
 #prediction .card-row-output { display: flex; flex-wrap: wrap; margin-right: 0; margin-left: 0; }
 #prediction .card-content-output { position: relative; width: 100%; flex-basis: 0; flex-grow: 1; max-width: 100%; padding-right: 0; padding-left: 0; margin-right: .5rem !important; }
 #prediction .card-text01-output { font-size: 1rem; columns: #4e73df !important; font-weight: 700 !important; text-transform: uppercase !important; margin-bottom: .5rem !important; }
-#prediction .card-text02-output { font-size: 1.25rem; font-weight: 700 !important; color: #5a5c69 !important; margin-bottom: 0 !important; line-height: 1.2; }
+#prediction .card-text02-output { font-size: 2rem; font-family: GmarketSansBold; color: #5a5c69 !important; margin-bottom: 0 !important; line-height: 1.2; text-align: right;
+    margin-top: 34px;}
 #prediction .row__row{
     display: flex;
     width: 90%;
     border-radius: 12px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
 
+}
+#prediction .last_row{
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
 }
 
 

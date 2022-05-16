@@ -36,16 +36,16 @@
         padding-bottom: .5rem !important;
         padding-top: .5rem !important;
         height: 100% !important;
-        box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important;
+        /* box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important; */
         position: relative;
         display: flex;
         flex-direction: column;
         min-width: 0;
         word-wrap: break-word;
         background-color: white;
-        background-clip: border-box;
-        border: 1px solid #e3e6f0;
-        border-radius: .35rem;
+        /* background-clip: border-box; */
+        /* border: 1px solid #e3e6f0; */
+        /* border-radius: .35rem; */
     }
 
     #prediction .card-body-input {
@@ -92,10 +92,10 @@
         word-wrap: break-word;
         background-color: white;
         background-clip: border-box;
-        border: 1px solid #e3e6f0;
-        border-radius: .35rem;
+        /* border: 1px solid #e3e6f0; */
+        /* border-radius: .35rem; */
         margin-bottom: 1.5rem !important;
-        box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important;
+        /* box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important; */
     }
 
     #prediction .card-header-chart {
@@ -152,12 +152,12 @@
         height: 100% !important;
         padding-bottom: .5rem !important;
         padding-top: .5rem !important;
-        box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important;
+        /* box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important; */
         word-wrap: break-word;
         background-color: white;
         background-clip: border-box;
-        border: 1px solid #e3e6f0;
-        border-radius: .35rem;
+        /* border: 1px solid #e3e6f0; */
+        /* border-radius: .35rem; */
     }
 
     #prediction .card-body-output {

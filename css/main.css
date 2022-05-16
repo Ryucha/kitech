@@ -119,7 +119,7 @@
 #prediction .btn-col {
     position: relative;
     width: 10%;
-    margin-left: 1%;
+    margin-left: auto;
     margin-right: 1%;
 
 }

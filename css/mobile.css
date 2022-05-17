@@ -42,7 +42,7 @@
         flex-direction: column;
         min-width: 0;
         word-wrap: break-word;
-        background-color: white;
+        background-color: #00000000;
         /* background-clip: border-box; */
         /* border: 1px solid #e3e6f0; */
         /* border-radius: .35rem; */
@@ -73,6 +73,7 @@
 
     #prediction .btn-input {
         border-radius: .35rem;
+        margin-top: 1.5rem;
     }
 
     #prediction .card-col-chart {
@@ -154,7 +155,6 @@
         padding-top: .5rem !important;
         /* box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important; */
         word-wrap: break-word;
-        background-color: white;
         background-clip: border-box;
         /* border: 1px solid #e3e6f0; */
         /* border-radius: .35rem; */
@@ -202,13 +202,13 @@
 
     .cast_box {
         margin: auto;
-        width: 90vw;
+        width: 95vw;
     }
 
     .cast_res {
-        margin-top: 16px;
+        margin-top: 64px;
         margin: auto;
-        width: 90vw;
+        width: 95vw;
     }
 
     #search .tabs li{
